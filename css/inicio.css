@@ -1,0 +1,370 @@
+/* screen - inicio */
+
+.inicio {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2056px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.inicio .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 882px;
+  width: 1440px;
+}
+
+.inicio .overlap-group1 {
+  height: 529px;
+  position: relative;
+  width: 1440px;
+}
+
+.inicio .header {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  height: 101px;
+  left: 84px;
+  min-width: 1356px;
+  padding: 0 138px;
+  position: absolute;
+  top: 105px;
+}
+
+.inicio .overlap-group {
+  height: 33px;
+  position: relative;
+  width: 902px;
+}
+
+.inicio .frame-29 {
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.inicio .vector-50 {
+  height: 32px;
+  left: 178px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.inicio .frame-30 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 180px;
+  padding: 6px 61px;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.inicio .inicio-1 {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 44px;
+  text-align: center;
+}
+
+.inicio .vector-51 {
+  height: 32px;
+  left: 358px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.inicio .frame-31 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 360px;
+  min-width: 180px;
+  padding: 6px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.inicio .publicaes {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 95px;
+  text-align: center;
+}
+
+.inicio .vector-52 {
+  height: 32px;
+  left: 538px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.inicio .frame-32 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 540px;
+  min-width: 180px;
+  padding: 6px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.inicio .vdeos {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 52px;
+  text-align: center;
+}
+
+.inicio .vector-53 {
+  height: 32px;
+  left: 718px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.inicio .frame-33 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 720px;
+  min-width: 180px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.inicio .contato {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 67px;
+  text-align: center;
+}
+
+.inicio .vector-54 {
+  height: 32px;
+  left: 898px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.inicio .logo_grande {
+  height: 265px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 277px;
+}
+
+.inicio .rectangle-gradient {
+  height: 322px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 207px;
+  width: 1440px;
+}
+
+.inicio .vdeo {
+  height: 323px;
+  left: 428px;
+  object-fit: cover;
+  position: absolute;
+  top: 206px;
+  width: 584px;
+}
+
+.inicio .rectangle-4 {
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--killarney-2);
+  filter: blur(4px);;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.inicio .phone-call {
+  height: 22px;
+  left: 108px;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.inicio .envelope {
+  height: 22px;
+  left: 352px;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.inicio .phone {
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+}
+
+.inicio .demogmailcom {
+  left: 402px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+}
+
+.inicio .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 121px;
+  margin-top: 18px;
+  min-height: 49px;
+  min-width: 187px;
+  text-align: center;
+}
+
+.inicio .as-part-of-the-respo-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 250px;
+  margin-left: 12.0px;
+  margin-top: 36px;
+  min-width: 1310px;
+}
+
+.inicio .as-part-of-the-respo {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 250px;
+  width: 394px;
+}
+
+.inicio .as-part-of-the-respo-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 83px;
+  min-height: 250px;
+  width: 394px;
+}
+
+.inicio .as-part-of-the-respo-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 45px;
+  min-height: 250px;
+  width: 394px;
+}
+
+.inicio .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 725px;
+  margin-left: 12.0px;
+  margin-top: 75px;
+  min-width: 1310px;
+}
+
+.inicio .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 678px;
+  width: 394px;
+}
+
+.inicio .atuao {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 50px;
+  margin-top: 99px;
+  min-height: 49px;
+  min-width: 162px;
+  text-align: center;
+}
+
+.inicio .as-part-of-the-respo-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 30px;
+  min-height: 250px;
+  width: 394px;
+}
+
+.inicio .x-featured-social-me {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+  margin-left: 70px;
+  min-height: 683px;
+  width: 371px;
+}
+
+.inicio .x10x-featured-social-media-image-size {
+  height: 311px;
+  object-fit: cover;
+  width: 371px;
+}
+
+.inicio .as-part-of-the-respo-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 168px;
+  margin-left: 81px;
+  min-height: 668px;
+  width: 394px;
+}
+
+.inicio .group-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 309px;
+  margin-left: 4.0px;
+  margin-top: 65px;
+  min-width: 1440px;
+}
+
+.inicio .footer-4-light-mode {
+  height: 310px;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 1439px;
+}

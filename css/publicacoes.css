@@ -1,0 +1,451 @@
+/* screen - publicacoes */
+
+.publicacoes {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2056px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.publicacoes .overlap-group7 {
+  height: 529px;
+  position: relative;
+  width: 1440px;
+}
+
+.publicacoes .header {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  height: 101px;
+  left: 84px;
+  min-width: 1356px;
+  padding: 0 138px;
+  position: absolute;
+  top: 105px;
+}
+
+.publicacoes .overlap-group-2 {
+  height: 33px;
+  position: relative;
+  width: 902px;
+}
+
+.publicacoes .frame-29 {
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.publicacoes .vector-50 {
+  height: 32px;
+  left: 178px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.publicacoes .frame-30 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 180px;
+  padding: 6px 61px;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.publicacoes .inicio {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 44px;
+  text-align: center;
+}
+
+.publicacoes .vector-51 {
+  height: 32px;
+  left: 358px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.publicacoes .frame-31 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 360px;
+  min-width: 180px;
+  padding: 6px 10px;
+  position: absolute;
+  top: 0;
+}
+
+.publicacoes .publicaes {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 95px;
+  text-align: center;
+}
+
+.publicacoes .vector-52 {
+  height: 32px;
+  left: 538px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.publicacoes .frame-32 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 540px;
+  min-width: 180px;
+  padding: 6px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.publicacoes .vdeos {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 52px;
+  text-align: center;
+}
+
+.publicacoes .vector-53 {
+  height: 32px;
+  left: 718px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.publicacoes .frame-33 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  display: flex;
+  height: 33px;
+  left: 720px;
+  min-width: 180px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.publicacoes .contato {
+  height: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 67px;
+  text-align: center;
+}
+
+.publicacoes .vector-54 {
+  height: 32px;
+  left: 898px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.publicacoes .logo_grande {
+  height: 265px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 277px;
+}
+
+.publicacoes .rectangle-4 {
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--killarney-2);
+  filter: blur(4px);;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.publicacoes .phone-call {
+  height: 22px;
+  left: 108px;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.publicacoes .phone {
+  left: 161px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+}
+
+.publicacoes .demogmailcom {
+  left: 402px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+}
+
+.publicacoes .envelope {
+  height: 22px;
+  left: 352px;
+  position: absolute;
+  top: 14px;
+  width: 22px;
+}
+
+.publicacoes .rectangle-gradient {
+  height: 322px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 207px;
+  width: 1440px;
+}
+
+.publicacoes .publicaes-1 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 97px;
+  margin-top: 18px;
+  min-height: 49px;
+  min-width: 235px;
+  text-align: center;
+}
+
+.publicacoes .card-image-big-container {
+  align-items: flex-start;
+  display: flex;
+  height: 396px;
+  margin-left: 11.0px;
+  margin-top: 50px;
+  min-width: 1257px;
+}
+
+.publicacoes .card-image-big {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  min-height: 396px;
+  width: 360px;
+}
+
+.publicacoes .banner-image {
+  background-color: var(--alto);
+  border: 1px none;
+  border-radius: 10px;
+  height: 191px;
+  width: 360px;
+}
+
+.publicacoes .text {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3px;
+  min-height: 152px;
+  width: 346px;
+}
+
+.publicacoes .in-label {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 15px;
+  width: 56px;
+}
+
+.publicacoes .ini-adalah-judul-artikel {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 2px;
+  min-height: 21px;
+  width: 246px;
+}
+
+.publicacoes .by-ridho-satriawan {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 2px;
+  min-height: 15px;
+  width: 140px;
+}
+
+.publicacoes .apa-itu-html-buat {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 16px;
+  width: 336px;
+}
+
+.publicacoes .address {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 13px;
+  min-height: 17px;
+}
+
+.publicacoes .card-image-big-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-left: 83px;
+  min-height: 396px;
+  width: 360px;
+}
+
+.publicacoes .card-image-big-2 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-left: 94px;
+  min-height: 396px;
+  width: 360px;
+}
+
+.publicacoes .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 34.0px;
+  margin-top: 8px;
+  min-width: 1046px;
+}
+
+.publicacoes .overlap-group {
+  border-radius: 32px;
+  height: 48px;
+  position: relative;
+  width: 139px;
+}
+
+.publicacoes .download-simple {
+  height: 32px;
+  left: 11px;
+  position: absolute;
+  top: 5px;
+  width: 32px;
+}
+
+.publicacoes .buttons {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black-3);
+  border-radius: 32px;
+  display: flex;
+  height: 48px;
+  left: 0;
+  min-width: 139px;
+  padding: 11px 50px;
+  position: absolute;
+  top: 0;
+}
+
+.publicacoes .label {
+  height: 24px;
+  letter-spacing: 0.03px;
+  line-height: 24px;
+  min-width: 39px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.publicacoes .overlap-group-1 {
+  border-radius: 32px;
+  height: 48px;
+  margin-left: 330px;
+  position: relative;
+  width: 139px;
+}
+
+.publicacoes .overlap-group2 {
+  border-radius: 32px;
+  height: 48px;
+  margin-left: 299px;
+  position: relative;
+  width: 139px;
+}
+
+.publicacoes .card-image-big-container-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 396px;
+  margin-left: 11.0px;
+  margin-top: 30px;
+  min-width: 1257px;
+}
+
+.publicacoes .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 18.0px;
+  margin-top: 8px;
+  min-width: 1062px;
+}
+
+.publicacoes .overlap-group6 {
+  border-radius: 32px;
+  height: 48px;
+  margin-left: 315px;
+  position: relative;
+  width: 139px;
+}
+
+.publicacoes .group-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 309px;
+  margin-left: 4.0px;
+  margin-top: 167px;
+  min-width: 1440px;
+}
+
+.publicacoes .footer-4-light-mode {
+  height: 310px;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 1439px;
+}
