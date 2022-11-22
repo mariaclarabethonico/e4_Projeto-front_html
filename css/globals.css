@@ -1,34 +1,173 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700,300,500,600|Fraunces:700");
-/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
-@import url("https://px.animaapp.com/609f0d294a5b8cd6aa2fab6c.609f0d2bef81b78f4ef50c55.6PIQKUN.hcp.png");
+   .home {
+       color: #080808;
+       font-family: "Poppins";
+       font-size: 14px !important;
+       font-weight: 300 !important;
+       line-height: 1.625em;
+       text-decoration: none !important;
+       text-underline-offset: none !important;
+   }
+   
+   body>header>nav.navbar>h1 {
+       padding: 0.2rem 1rem;
+       font-size: 2rem;
+   }
+   
+   body>header>#main-image {
+       width: 100%;
+       height: 37rem;
+       background-size: cover;
+   }
+   
+   div.container>h3>a {
+       text-decoration: none;
+       color: black;
+   }
+   
+   @media (max-width: 900px) {
+       #encontre #tribos {
+           columns: 4
+       }
+   }
+   
+   @media (max-width: 700px) {
+       #encontre #tribos {
+           columns: 3
+       }
+   }
+   
+   @media (max-width: 500px) {
+       #encontre #tribos {
+           columns: 2
+       }
+   }
+   
+   @media (max-width: 300px) {
+       #encontre #tribos {
+           columns: 1
+       }
+   }
+   
+   
+   main>section {
+       padding-top: 2rem;
+   }
+   
+   
+   .a {
+       text-decoration: none;
+       color: black;
+   }
+   
+   
+   @media screen and (max-width: 991px) {
+       .card-container {
+           margin-bottom: 4%;
+       }
+   }
+   
+   @media screen and (max-width: 991px) and (min-width: 575px) {
+       .home .cards .col-md-4 {
+           width: 50%;
+       }
+       .column1 {
+           margin-left: 25%;
+       }
+   }
+   
+   .titulo {
+       padding-top: 100px !important;
+       padding-bottom: 40px;
+       text-align: center;
+       font-weight: bold;
+   }
+   
 
 
+/*########################################################*/
+/*############### HEADER + Footer Background #############*/
+/*########################################################*/
+.imagem-padding{
+    padding-right: 2rem;
+}
 
-.screen a {
-  display: contents;
+ .header-titulo{
+    padding-left: 3.5rem !important;
+    padding-right: 3.5rem !important;
+    color:black;
+    font-size: 16px !important;
+    
+   }
+
+ .navbar-dark{
+	background: #e7e0e0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #292929 !important;
+	letter-spacing: 1px;
+	font-size: 14px;
+	position: relative;
+	padding: 10px 15px;
+	border-radius: 50px;
+  
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+	color: #ffffff;
+	background: #009bb7
+}
+.navbar-dark .navbar-nav .nav-link.active{
+	background: #009bb7;
+}
+
+.cor-header{
+  background: rgb(255 255 255 / 100%) !important;
+  border-bottom: 1px solid #076eaf !important;
+}
+
+.logo-topo {
+  max-width: 130px;
+  padding-top: 5px !important;
+}
+/*########################################################*/
+/*##################### FOOTER ###########################*/
+/*########################################################*/
+
+.links-footer li a{
+	color: black;
+	font-weight: 400;
+	font-size: 16px;
   text-decoration: none;
 }
 
-.container-center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  pointer-events: none;
-  width: 100%;
+.links-footer li{
+	margin-bottom: 10px; 
 }
 
-.container-center-horizontal > * {
-  flex-shrink: 0;
-  pointer-events: auto;
+.cor-footer {    
+  background-color: #777 !important;;
+  color: black;
 }
 
-.valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.footer-social a {
+  padding-right: 25px;
+  
 }
 
-* {
-  box-sizing: border-box;
+.icones {
+  color:#fff
+}
+.footer-area h6 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ol, ul {
+  padding-left: 1rem !important;
+}
+
+.titulo-footer {
+  padding-top: 20px !important;
 }

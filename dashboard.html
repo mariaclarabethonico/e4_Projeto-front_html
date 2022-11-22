@@ -2,8 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
     <meta name="viewport" content="width=1440, maximum-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
@@ -11,81 +9,94 @@
     <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/contato.css">
+
   </head>
-  <body style="margin: 0; background: #ffffff">
-    <input type="hidden" id="anPageName" name="page" value="dashboard" />
-    <div class="container-center-horizontal">
-      <div class="dashboard screen">
-        <div class="overlap-group1 lato-normal-black-16px">
-          <div class="header">
-            <div class="overlap-group">
-              <img class="frame-29" src="img/frame-29@1x.png" alt="Frame 29" />
-              <img class="vector-50" src="img/vector-50@2x.svg" alt="Vector 50" />
-              <div class="frame-30">
-                <div class="inicio valign-text-middle lato-semi-bold-killarney-14px">INÍCIO</div>
+  <body class="home">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top cor-header">
+            <div class="container-fluid">
+                <a class="navbar-brand imagem-padding logo-topo" href="./index.html"><img src="img/reciclagem.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link header-titulo "href="./publicacoes.html"> Publicações</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./reciclagem.html">Reciclagem</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./videos.html"> Videos</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./dashboard.html"> Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./contato.html"> Contato</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./login.html"> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Final do Header -->
+
+      <main>
+        <section>
+            <h2 class="titulo" style="padding-top: 60px;">Dashboard</h2>
+            <p class="pt-20 ajustes-p">
+              Dashboard Analytics
+            </p>
+            <iframe class="dashboard" src="img/dashboard.png" style="align-items: center;">
+            </iframe>
+          </section> 
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="footer-area section-gap cor-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="single-footer-widget titulo-footer ">
+                  <h6>Sobre nós</h6>
+                  <p>
+                    {descricao_rodape}
+                  </p>
+                  <p class="footer-text">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Recliclagem Solidária e Inlcusiva
+                  </p>								
+                </div>
               </div>
-              <img class="vector-51" src="img/vector-50@2x.svg" alt="Vector 51" />
-              <div class="frame-31">
-                <div class="publicaes valign-text-middle lato-semi-bold-killarney-14px">PUBLICAÇÕES</div>
-              </div>
-              <img class="vector-52" src="img/vector-50@2x.svg" alt="Vector 52" />
-              <div class="frame-32">
-                <div class="vdeos valign-text-middle lato-semi-bold-killarney-14px">VÍDEOS</div>
-              </div>
-              <img class="vector-53" src="img/vector-50@2x.svg" alt="Vector 53" />
-              <div class="frame-33">
-                <div class="contato valign-text-middle lato-semi-bold-killarney-14px">CONTATO</div>
-              </div>
-              <img class="vector-54" src="img/vector-50@2x.svg" alt="Vector 54" />
+              <div class="col-lg-2 col-md-6 col-sm-6">
+                <div class="single-footer-widget titulo-footer">
+                      <h6>Links</h6> 
+                      <ul class="links-footer">
+                        <li><a href="inicio.html">  Home</a></li>
+                        <li><a href="publicacoes.html">  Publicações</a></li>
+                        <li><a href="videos.html"> Videos</a></li>
+                        <li><a href="dashboard.html"> Dashboard</a></li>
+                        <li><a href="contato.html"> Contato</a></li>
+                      </ul>
+                 </div>
+              </div>						
+              <div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+                <div class="single-footer-widget titulo-footer">
+                  <h6>Redes sociais</h6>
+                  <p>Conheça nossas redes sociais abaixo.</p>
+                  <div class="footer-social d-flex align-items-center">
+                    <a href="{facebook}" target="_blank"><i class="fa fa-facebook fa-2x icones"></i></a>
+                    <a href="{instagram}" target="_blank"><i class="fa fa-instagram fa-2x icones"></i></a>
+                    <a href="{whatsapp}" target="_blank"><i class="fa fa-whatsapp fa-2x icones"></i></a>
+                  </div>
+                </div>
+              </div>							
             </div>
           </div>
-          <img class="logo_grande" src="img/logo-grande@2x.png" alt="Logo_grande" />
-          <img class="rectangle-gradient" src="img/rectangle-gradient@1x.jpg" alt="Rectangle Gradient" />
-          <div class="rectangle-4"></div>
-          <img class="phone-call" src="img/phonecall@2x.svg" alt="PhoneCall" />
-          <img class="envelope" src="img/envelope-1@2x.svg" alt="Envelope" />
-          <div class="phone">(505) 299-5051</div>
-          <div class="demogmailcom">demo@gmail.com</div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-col">
-            <div class="pesquisa fraunces-bold-gable-green-40px">Pesquisa</div>
-            <p class="as-part-of-the-respo lato-light-masala-20px">
-              As part of the response, the UN Secretary-General is issuing policy briefs to provide ideas.The United
-              Nations designates specific days, weeks, years and decadesphones, the density of distribution in rural
-              areas only tallies up to around 57%.Get inspired by this revived W.H. Auden’s Hymn to the United Nations.
-              &#34;Let music for peace Be the paradigm, For peace means to change At the right time, As the World-Clock,
-              Goes Tick and Tock.So may the story Of our human city Presently move
-            </p>
-          </div>
-          <p class="as-part-of-the-respo-1 lato-light-masala-20px">
-            As part of the response, the UN Secretary-General is issuing policy briefs to provide ideas.The United
-            Nations designates specific days, weeks, years and decadesphones, the density of distribution in rural areas
-            only tallies up to around 57%.Get inspired by this revived W.H. Auden’s Hymn to the United Nations. &#34;Let
-            music for peace Be the paradigm, For peace means to change At the right time, As the World-Clock, Goes Tick
-            and Tock.So may the story Of our human city Presently move
-          </p>
-          <img
-            class="x10x-featured-social-media-image-size-3"
-            src="img/10x-featured-social-media-image-size-1@2x.png"
-            alt="10x-featured-social-media-image-size 3"
-          />
-        </div>
-        <div class="overlap-group2">
-          <div class="ligne-5"></div>
-          <div class="rectangle-9"></div>
-        </div>
-        <div class="parceiros">Parceiros</div>
-        <div class="logos">
-          <img class="company-logo" src="img/company-logo@2x.svg" alt="Company logo" />
-          <img class="company-logo-1" src="img/company-logo-1@2x.svg" alt="Company logo" />
-          <img class="company-logo-2" src="img/company-logo-2@2x.svg" alt="Company logo" />
-          <img class="company-logo-3" src="img/company-logo-3@2x.svg" alt="Company logo" />
-        </div>
-        <div class="group-5">
-          <img class="footer-4-light-mode" src="img/footer-4-light-mode-1@2x.png" alt="Footer 4 Light Mode" />
-        </div>
-      </div>
-    </div>
-  </body>
+        </footer>
+      <!-- Final do Footer -->
+
+</body>
+
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/custom.js"></script>
+
 </html>
