@@ -8,7 +8,7 @@
   flex-direction: column;
   height: 2056px;
   overflow: hidden;
-  width: 1440px;
+  width: 1920px;
 }
 
 .inicio .flex-col {
@@ -16,13 +16,13 @@
   display: flex;
   flex-direction: column;
   min-height: 882px;
-  width: 1440px;
+  width: 1920px;
 }
 
 .inicio .overlap-group1 {
   height: 529px;
   position: relative;
-  width: 1440px;
+  width: 1920px;
 }
 
 .inicio .header {
@@ -33,6 +33,7 @@
   height: 101px;
   left: 84px;
   min-width: 1356px;
+  max-width: 1920px;
   padding: 0 138px;
   position: absolute;
   top: 105px;
@@ -40,8 +41,8 @@
 
 .inicio .overlap-group {
   height: 33px;
-  position: relative;
-  width: 902px;
+  position: absolute;
+  width: 1920px;
 }
 
 .inicio .frame-29 {
@@ -49,41 +50,95 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 180px;
+  width: 380px;
 }
 
 .inicio .vector-50 {
   height: 32px;
-  left: 178px;
+  left: 278px;
   position: absolute;
   top: 0;
   width: 3px;
 }
 
-.inicio .frame-30 {
-  align-items: flex-start;
-  background-color: var(--white);
-  border: 2px solid;
+#button {
+  background-color: white;
+  border: none;
   display: flex;
-  height: 33px;
-  left: 180px;
-  padding: 6px 61px;
-  position: absolute;
-  top: 0;
-  width: 180px;
-}
-
-.inicio .inicio-1 {
   height: 17px;
   letter-spacing: 0;
   line-height: normal;
   min-width: 44px;
-  text-align: center;
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #3a7735;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#button:hover {
+  opacity: 0.6;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #3a7735;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #3a7735;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #3a7735;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.inicio .frame-30 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px;
+  display: flex;
+  height: 33px;
+  left: 280px;
+  padding: 6px 61px;
+  position: absolute;
+  top: 0;
+  width: 280px;
 }
 
 .inicio .vector-51 {
   height: 32px;
-  left: 358px;
+  left: 458px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -92,27 +147,19 @@
 .inicio .frame-31 {
   align-items: flex-start;
   background-color: var(--white);
-  border: 2px solid;
+  border: 2px;
   display: flex;
   height: 33px;
-  left: 360px;
+  left: 460px;
   min-width: 180px;
   padding: 6px 10px;
   position: absolute;
   top: 0;
 }
 
-.inicio .publicaes {
-  height: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 95px;
-  text-align: center;
-}
-
 .inicio .vector-52 {
   height: 32px;
-  left: 538px;
+  left: 638px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -121,27 +168,19 @@
 .inicio .frame-32 {
   align-items: flex-start;
   background-color: var(--white);
-  border: 2px solid;
+  border: 2px;
   display: flex;
   height: 33px;
-  left: 540px;
+  left: 640px;
   min-width: 180px;
   padding: 6px 14px;
   position: absolute;
   top: 0;
 }
 
-.inicio .vdeos {
-  height: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 52px;
-  text-align: center;
-}
-
 .inicio .vector-53 {
   height: 32px;
-  left: 718px;
+  left: 818px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -150,27 +189,19 @@
 .inicio .frame-33 {
   align-items: flex-start;
   background-color: var(--white);
-  border: 2px solid;
+  border: 2px;
   display: flex;
   height: 33px;
-  left: 720px;
+  left: 820px;
   min-width: 180px;
   padding: 6px 12px;
   position: absolute;
   top: 0;
 }
 
-.inicio .contato {
-  height: 17px;
-  letter-spacing: 0;
-  line-height: normal;
-  min-width: 67px;
-  text-align: center;
-}
-
 .inicio .vector-54 {
   height: 32px;
-  left: 898px;
+  left: 998px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -191,28 +222,19 @@
   object-fit: cover;
   position: absolute;
   top: 207px;
-  width: 1440px;
-}
-
-.inicio .vdeo {
-  height: 323px;
-  left: 428px;
-  object-fit: cover;
-  position: absolute;
-  top: 206px;
-  width: 584px;
+  width: 1920px;
 }
 
 .inicio .rectangle-4 {
   background-color: var(--white);
   border: 2px solid;
   border-color: var(--killarney-2);
-  filter: blur(4px);;
+  filter: blur(4px);
   height: 51px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1920px;
 }
 
 .inicio .phone-call {
@@ -263,7 +285,7 @@
   align-self: center;
   display: flex;
   height: 250px;
-  margin-left: 12.0px;
+  margin-left: 12px;
   margin-top: 36px;
   min-width: 1310px;
 }
@@ -295,7 +317,7 @@
   align-items: flex-start;
   display: flex;
   height: 725px;
-  margin-left: 12.0px;
+  margin-left: 12px;
   margin-top: 75px;
   min-width: 1310px;
 }
@@ -357,12 +379,20 @@
   align-items: flex-start;
   display: flex;
   height: 309px;
-  margin-left: 4.0px;
+  margin-left: 4px;
   margin-top: 65px;
   min-width: 1440px;
 }
 
 .inicio .footer-4-light-mode {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 15px;
+  top: 1850.81px;
+}
+
+.inicio .card-body {
   height: 310px;
   margin-left: -1px;
   margin-top: -1px;
