@@ -1,5 +1,8 @@
 /* screen - inicio */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,600|Fraunces:700|DM+Sans:400,700,500");
+
 .inicio {
   align-items: center;
   background-color: var(--white);
@@ -45,14 +48,6 @@
   width: 1920px;
 }
 
-.inicio .frame-29 {
-  height: 33px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 380px;
-}
-
 .inicio .vector-50 {
   height: 32px;
   left: 278px;
@@ -82,24 +77,27 @@
   transition: 0.3s;
   text-decoration: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 #button:hover {
   opacity: 0.6;
 }
 
-.dropdown {
-  position: relative;
+/*.dropdown {
+  position: flex;
   display: inline-block;
-}
+}*/
 
-.dropbtn {
+/*.dropbtn {
   background-color: #3a7735;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
-}
+  height: 17px;
+  z-index: 4;
+}*/
 
 .dropdown-content {
   display: none;
@@ -107,7 +105,7 @@
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px #3a7735;
-  z-index: 1;
+  z-index: 2;
 }
 
 .dropdown-content a {
@@ -115,20 +113,27 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  z-index: 3;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 .inicio .frame-30 {
   align-items: flex-start;
   background-color: var(--white);
   border: 2px;
   display: flex;
-  height: 33px;
+  height: 17px;
   left: 280px;
   padding: 6px 61px;
   position: absolute;
@@ -260,6 +265,7 @@
   position: absolute;
   text-align: center;
   top: 13px;
+  cursor: pointer;
 }
 
 .inicio .demogmailcom {
@@ -268,7 +274,10 @@
   line-height: normal;
   position: absolute;
   top: 13px;
+  cursor: pointer;
 }
+
+/*fim header*/
 
 .inicio .title {
   letter-spacing: 0;
@@ -278,26 +287,39 @@
   min-height: 49px;
   min-width: 187px;
   text-align: center;
+  position: absolute;
+  width: 187px;
+  height: 49px;
+  left: 121px;
+  top: 548px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+
+  color: #1b3632;
 }
 
-.inicio .as-part-of-the-respo-container {
+.inicio .texto {
   align-items: flex-start;
   align-self: center;
   display: flex;
-  height: 250px;
+  height: 10px;
   margin-left: 12px;
-  margin-top: 36px;
+  margin-top: 136px;
   min-width: 1310px;
 }
 
-.inicio .as-part-of-the-respo {
+.inicio .txt {
   letter-spacing: 0;
   line-height: normal;
   min-height: 250px;
   width: 394px;
 }
 
-.inicio .as-part-of-the-respo-1 {
+.inicio .txt-1 {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 83px;
@@ -305,7 +327,7 @@
   width: 394px;
 }
 
-.inicio .as-part-of-the-respo-2 {
+.inicio .txt-2 {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 45px;
@@ -330,7 +352,7 @@
   width: 394px;
 }
 
-.inicio .atuao {
+.inicio .atuacao {
   letter-spacing: 0;
   line-height: normal;
   margin-left: 50px;
@@ -338,9 +360,21 @@
   min-height: 49px;
   min-width: 162px;
   text-align: center;
+  position: flex;
+  width: 162px;
+  height: 49px;
+  left: 121px;
+  top: 1307px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  color: #1b3632;
 }
 
-.inicio .as-part-of-the-respo-3 {
+.inicio .txt-3 {
   letter-spacing: 0;
   line-height: normal;
   margin-top: 30px;
@@ -365,7 +399,7 @@
   width: 371px;
 }
 
-.inicio .as-part-of-the-respo-container-1 {
+.inicio .texto-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -375,26 +409,193 @@
   width: 394px;
 }
 
-.inicio .group-5 {
+/*footer*/
+
+.footer {
   align-items: flex-start;
   display: flex;
-  height: 309px;
-  margin-left: 4px;
-  margin-top: 65px;
-  min-width: 1440px;
+  margin-left: 516px;
+  margin-top: 80px;
+  min-width: 1446px;
 }
 
-.inicio .footer-4-light-mode {
+.overlap-group1 {
+  height: 292px;
+  position: flex;
+  width: 1920px;
+
+}
+
+.flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  left: 587px;
+  min-height: 77px;
+  position: absolute;
+  top: 40px;
+  width: 82px;
+  font-family: "Lato";
+  font-size: 13px;
+}
+
+.projeto {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 27px;
+  white-space: nowrap;
+}
+
+.partners {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 21px;
+  opacity: 0.5;
+  width: 71px;
+}
+
+.about-us {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 21px;
+  opacity: 0.5;
+  width: 76px;
+}
+
+.rede {
+  align-items: flex-start;
+  display: flex;
+  height: 19px;
+  left: 668px;
+  min-width: 104px;
+  position: absolute;
+  top: 191px;
+}
+
+.facebook-logo-button {
+  align-self: flex-end;
+  height: 26px;
+  margin-bottom: -6.48px;
+  margin-left: -4px;
+  width: 17px;
+}
+
+.twitter {
+  height: 15px;
+  margin-left: 28px;
+  margin-top: 0;
+  width: 19px;
+}
+
+.insta-social-logo {
+  align-self: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/635b0504f55c5a85d294ecbf/releases/638a3022dcf0cf5a931f8593/img/combined-shape@2x.svg);
+  background-size: 100% 100%;
+  height: 19px;
+  margin-left: 24px;
+  width: 20px;
+}
+
+.logo-small {
   position: absolute;
   width: 50px;
-  height: 50px;
-  left: 15px;
-  top: 1850.81px;
+  height: 49px;
+  left: -100;
+  top: 29px;
+  object-fit: cover;
+    
 }
 
-.inicio .card-body {
-  height: 310px;
-  margin-left: -1px;
-  margin-top: -1px;
-  width: 1439px;
+.copyright {
+  color: black;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  left: 415px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 246px;
+  width: 611px;
+}
+
+.descricao {
+  color: black;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  left: 131px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.5;
+  position: absolute;
+  top: 73px;
+  width: 403px;
+}
+
+.reciclagem-solidria {
+  color: black;
+  font-family: "Lato";
+  font-size: 14px;
+  left: 136px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+  width: 208px;
+}
+
+.flex-col-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  left: 795px;
+  min-height: 77px;
+  position: absolute;
+  top: 40px;
+  width: 98px;
+  font-family: "Lato";
+  font-size: 13px;
+}
+
+.recurso {
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 27px;
+  white-space: nowrap;
+}
+
+.video {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 21px;
+  opacity: 0.5;
+  width: 52px;
+  cursor: pointer;
+  
+  
+}
+
+.publi {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 21px;
+  opacity: 0.5;
+  width: 92px;
+}
+
+.rectangle-10 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1920px;
+  height: 286px;
+  left: -258px;
+  top: 4px;
+  border: 1px solid;
+  border-color: var(--killarney-2);
+  object-fit: cover;  
+
 }
