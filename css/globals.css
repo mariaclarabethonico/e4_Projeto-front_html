@@ -1,173 +1,266 @@
-   .home {
-       color: #080808;
-       font-family: "Poppins";
-       font-size: 14px !important;
-       font-weight: 300 !important;
-       line-height: 1.625em;
-       text-decoration: none !important;
-       text-underline-offset: none !important;
-   }
-   
-   body>header>nav.navbar>h1 {
-       padding: 0.2rem 1rem;
-       font-size: 2rem;
-   }
-   
-   body>header>#main-image {
-       width: 100%;
-       height: 37rem;
-       background-size: cover;
-   }
-   
-   div.container>h3>a {
-       text-decoration: none;
-       color: black;
-   }
-   
-   @media (max-width: 900px) {
-       #encontre #tribos {
-           columns: 4
-       }
-   }
-   
-   @media (max-width: 700px) {
-       #encontre #tribos {
-           columns: 3
-       }
-   }
-   
-   @media (max-width: 500px) {
-       #encontre #tribos {
-           columns: 2
-       }
-   }
-   
-   @media (max-width: 300px) {
-       #encontre #tribos {
-           columns: 1
-       }
-   }
-   
-   
-   main>section {
-       padding-top: 2rem;
-   }
-   
-   
-   .a {
-       text-decoration: none;
-       color: black;
-   }
-   
-   
-   @media screen and (max-width: 991px) {
-       .card-container {
-           margin-bottom: 4%;
-       }
-   }
-   
-   @media screen and (max-width: 991px) and (min-width: 575px) {
-       .home .cards .col-md-4 {
-           width: 50%;
-       }
-       .column1 {
-           margin-left: 25%;
-       }
-   }
-   
-   .titulo {
-       padding-top: 100px !important;
-       padding-bottom: 40px;
-       text-align: center;
-       font-weight: bold;
-   }
-   
+.home {
+    font-family: "Poppins" !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.625em;
+    text-decoration: none !important;
+    text-underline-offset: none !important;
+}
+
+body>header>nav.navbar>h1 {
+    padding: 0.2rem 1rem;
+    font-size: 2rem;
+}
+
+body>header>#main-image {
+    width: 100%;
+    height: 37rem;
+    background-size: cover;
+}
+
+div.container>h3>a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 900px) {
+    #encontre #tribos {
+        columns: 4
+    }
+}
+
+@media (max-width: 700px) {
+    #encontre #tribos {
+        columns: 3
+    }
+}
+
+@media (max-width: 500px) {
+    #encontre #tribos {
+        columns: 2
+    }
+}
+
+@media (max-width: 300px) {
+    #encontre #tribos {
+        columns: 1
+    }
+}
+
+
+main>section {
+    padding-top: 2rem;
+}
+
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width: 991px) {
+    .card-container {
+        margin-bottom: 4%;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 575px) {
+    .home .col-md-4 {
+        width: 50%;
+    }
+    .column1 {
+        margin-left: 25%;
+    }
+}
+
+.titulo {
+    padding-top: 100px !important;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 /*########################################################*/
 /*############### HEADER + Footer Background #############*/
 /*########################################################*/
 .imagem-padding{
-    padding-right: 2rem;
+ padding-right: 2rem;
 }
 
- .header-titulo{
-    padding-left: 3.5rem !important;
-    padding-right: 3.5rem !important;
-    color:black;
-    font-size: 16px !important;
-    
-   }
-
- .navbar-dark{
-	background: #e7e0e0;
+.header-titulo{
+ padding-left: 3.5rem !important;
+ padding-right: 3.5rem !important;
+ color:black;
+ font-size: 16px !important;
+ 
 }
+
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #292929 !important;
-	letter-spacing: 1px;
-	font-size: 14px;
-	position: relative;
-	padding: 10px 15px;
-	border-radius: 50px;
-  
+ color: #3a7735 !important;
+ letter-spacing: 1px;
+ font-size: 14px;
+ position: relative;
+ padding: 10px 15px;
+ border-radius: 50px;
 }
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
-	color: #ffffff;
-	background: #009bb7
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: white;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px #3a7735;
+ z-index: 2;
+
 }
-.navbar-dark .navbar-nav .nav-link.active{
-	background: #009bb7;
+
+.dropdown-content a {
+ color: #3a7735;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ z-index: 3;
+}
+
+.font-inicio{
+ 
+ color: #3a7735 !important;
+ letter-spacing: 1px;
+ font-size: 14px;
+ position: relative;
+ padding: 10px 15px;
+ border-radius: 50px;
+}
+
+.dropdown-content a:hover {
+ background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown:hover .dropbtn {
+ background-color: #3e8e41;
+}
+
+
+.header-texto-principal{
+ background-color: white !important;
+ border: none !important;
+ display: flex !important;
+ height: 17px !important;
+ letter-spacing: 0 !important;
+ line-height: normal !important;
+ min-width: 44px !important;
+ text-align: left !important;
+ font-weight: 600 !important;
+ font-size: 14px !important;
+ line-height: 17px !important;
+ text-transform: uppercase !important;
+ text-transform: uppercase !important;
+ color: #3a7735 !important;
+ cursor: pointer !important;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+ width: 60% !important;
+ padding-right: var(--bs-gutter-x,.75rem) !important;
+ padding-left: var(--bs-gutter-x,.75rem) !important;
+ margin-right: auto !important;
+ margin-left: auto !important;
 }
 
 .cor-header{
-  background: rgb(255 255 255 / 100%) !important;
-  border-bottom: 1px solid #076eaf !important;
+background: rgb(255 255 255 / 100%) !important;
+border-bottom: 1px solid #3a77354f !important;
 }
 
 .logo-topo {
-  max-width: 130px;
-  padding-top: 5px !important;
+max-width: 130px;
+padding-top: 5px !important;
 }
+
 /*########################################################*/
 /*##################### FOOTER ###########################*/
 /*########################################################*/
 
 .links-footer li a{
-	color: black;
-	font-weight: 400;
-	font-size: 16px;
-  text-decoration: none;
+color: black;
+font-weight: 400;
+font-size: 16px;
+text-decoration: none;
 }
 
 .links-footer li{
-	margin-bottom: 10px; 
+ margin-bottom: 10px; 
 }
 
 .cor-footer {    
-  background-color: #777 !important;;
-  color: black;
+background-color: #FFFFFF !important;
+color: black;
+border: 1px solid;
+border-color: #3a77354f !important;
 }
 
 .footer-social a {
-  padding-right: 25px;
-  
+padding-right: 25px;
+
 }
 
 .icones {
-  color:#fff
+color: black;
 }
+
 .footer-area h6 {
-  color: #fff;
-  margin-bottom: 25px;
-  font-size: 18px;
-  font-weight: 600;
+margin-bottom: 25px;
+font-size: 18px;
+font-weight: 600;
 }
 
 ol, ul {
-  padding-left: 1rem !important;
+padding-left: 1rem !important;
 }
 
 .titulo-footer {
-  padding-top: 20px !important;
+padding-top: 20px;  
+color: black !important;
+font-size: 14px !important;
+left: 136px !important;
+letter-spacing: 0 !important;
+line-height: 28px !important;
+top: 40px!important;
+}
+
+
+.copyright {
+ color: black;
+ font-family: "Lato";
+ font-size: 14px;
+ font-weight: 400;
+ padding-left: 415px;
+ letter-spacing: 0;
+ line-height: 28px;
+ position: absolute;
+ top: 246px;
+ width: 611px;
+}
+
+li {
+ list-style-type: none;
+}
+
+.correcao-titulo{
+ padding-left: 16px;
+}
+
+
+.texto-copy {
+ padding-top: 20px;
+ align-items: center !important;
+ padding-left: 700px;
 }

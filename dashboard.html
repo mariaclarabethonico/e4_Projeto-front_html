@@ -19,25 +19,32 @@
   <body class="home">
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top cor-header">
-            <div class="container-fluid">
-                <a class="navbar-brand imagem-padding logo-topo" href="./index.html"><img src="img/reciclagem.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link header-titulo "href="./publicacoes.html"> Publicações</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./reciclagem.html">Reciclagem</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./videos.html"> Videos</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./dashboard.html"> Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./contato.html"> Contato</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./login.html"> Login</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!-- Final do Header -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top cor-header">
+        <a class="navbar-brand imagem-padding logo-topo" href="./inicio.html"><img src="img/reciclagem.png"></a>
+          <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse header-texto-principal" id="navbarSupportedContent">
+                <div class="dropdown">
+                  <a href="./inicio.html" class="nav-link header-titulo font-inicio">INÍCIO </a>
+                  <div class="dropdown-content">
+                    <a href="./inicio.html">Projeto</a>
+                    <a href="./dashboard.html">Pesquisa</a>
+                    <a href="/reciclagem.html">Reciclagem</a>
+                  </div>
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link header-titulo" href="./reciclagem.html">Publicações</a></li>
+                  <li class="nav-item"><a class="nav-link header-titulo" href="./videos.html">Vídeos</a></li>
+                  <li class="nav-item"><a class="nav-link header-titulo" href="./contato.html">Contato</a></li>
+                  <li class="nav-item"><a class="nav-link header-titulo" href="./login.html">Painel</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <!-- Final do Header -->
+
 
       <main>
         <section>
@@ -45,7 +52,7 @@
             <p class="pt-20 ajustes-p">
               Dashboard Analytics
             </p>
-            <iframe class="dashboard" src="img/dashboard.png" style="align-items: center;">
+            <iframe class="dashboard" title="RECSOL atualizado" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNDU3YzQ0YzctZWRjYS00YzA3LWJjN2EtZWRhZDFjOTU4ZmY5IiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9&pageName=ReportSection06f798d6b46a61ea56e5" frameborder="0" allowFullScreen="true"></iframe>
             </iframe>
           </section> 
         </main>
@@ -55,33 +62,37 @@
         <footer class="footer-area section-gap cor-footer">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget titulo-footer ">
                   <h6>Sobre nós</h6>
-                  <p>
-                    {descricao_rodape}
-                  </p>
-                  <p class="footer-text">
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Recliclagem Solidária e Inlcusiva
+                  <p class="footer-p">
+                    Olá, nós somos o Projeto de Extensão trying to make an effort to put the right people for you to get the
+                    best results. Just insight
                   </p>								
                 </div>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="col-lg-2 col-md-3 col-sm-3">
                 <div class="single-footer-widget titulo-footer">
-                      <h6>Links</h6> 
-                      <ul class="links-footer">
-                        <li><a href="inicio.html">  Home</a></li>
+                      <h6 class="correcao-titulo">Recursos</h6> 
+                      <ul class="links-footer ">
                         <li><a href="publicacoes.html">  Publicações</a></li>
                         <li><a href="videos.html"> Videos</a></li>
-                        <li><a href="dashboard.html"> Dashboard</a></li>
+                      </ul>
+                 </div>
+              </div>	
+              <div class="col-lg-2 col-md-3 col-sm-3">
+                <div class="single-footer-widget titulo-footer">
+                      <h6 class="correcao-titulo">Projeto</h6> 
+                      <ul class="links-footer ">
+                        <li><a href="dashboard.html"> Pesquisa</a></li>
                         <li><a href="contato.html"> Contato</a></li>
                       </ul>
                  </div>
               </div>						
-              <div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+              <div class="col-lg-3 col-md-3 col-sm-3 social-widget">
                 <div class="single-footer-widget titulo-footer">
                   <h6>Redes sociais</h6>
-                  <p>Conheça nossas redes sociais abaixo.</p>
+                  <p>Conheça nossas redes sociais.</p>
                   <div class="footer-social d-flex align-items-center">
                     <a href="{facebook}" target="_blank"><i class="fa fa-facebook fa-2x icones"></i></a>
                     <a href="{instagram}" target="_blank"><i class="fa fa-instagram fa-2x icones"></i></a>
@@ -91,8 +102,11 @@
               </div>							
             </div>
           </div>
+          <p class="footer-text texto-copy">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Recliclagem Solidária e Inlcusiva
+          </p>	
         </footer>
-      <!-- Final do Footer -->
+        <!-- Final do Footer -->
 
 </body>
 

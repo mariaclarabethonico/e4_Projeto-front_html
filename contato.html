@@ -20,24 +20,32 @@
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top cor-header">
+          <a class="navbar-brand imagem-padding logo-topo" href="./inicio.html"><img src="img/reciclagem.png"></a>
             <div class="container-fluid">
-                <a class="navbar-brand imagem-padding logo-topo" href="./index.html"><img src="img/reciclagem.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse header-texto-principal" id="navbarSupportedContent">
+                  <div class="dropdown">
+                    <a href="./inicio.html" class="nav-link header-titulo font-inicio">INÍCIO </a>
+                    <div class="dropdown-content">
+                      <a href="./inicio.html">Projeto</a>
+                      <a href="./dashboard.html">Pesquisa</a>
+                      <a href="/reciclagem.html">Reciclagem</a>
+                    </div>
+                  </div>
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link header-titulo "href="./publicacoes.html">   Publicações</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./reciclagem.html">    Reciclagem</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./videos.html">        Videos</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./dashboard.html">     Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./contato.html">       Contato</a></li>
-                    <li class="nav-item"><a class="nav-link header-titulo" href="./login.html">         Login</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./reciclagem.html">Publicações</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./videos.html">Vídeos</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./login.html">Painel</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!-- Final do Header -->
+
+
       <main>
         <section class="contact-page-area section-gap" id="contato">
           <div class="container">
@@ -78,31 +86,23 @@
                   </div>
                   <div class="contact-details">
                     <p>Entre em contato via e-mail</p>
-                    <a href="mailto:{email_contato}"><h5>{email_contato}</h5></a>
+                    <a><h5>reciclagem.solidaria.pucminas@gmail.com</h5></a>
                   </div>
-                </div>	
-                <div class="single-contact-address d-flex flex-row {hidden}">
-                  <div class="icon">
-                    <span class="lnr lnr-smartphone"></span>
-                  </div>
-                  <div class="contact-details">
-                    <p>Ou pelo nosso WhatsApp</p>
-                    {qrcode}
-                  </div>
-                </div>													
+                </div>												
               </div>
               
               <div class="col-lg-8">
-                <form class="form-area formulario contact-form text-right" onsubmit="">
+                <form class="form-area formulario contact-form text-right" action="https://api.staticforms.xyz/submit" method="post">
                   <div class="row">	
                     <div class="col-lg-6 form-group">
                       <input name="name" placeholder="Nome" class="common-input mb-20 form-control nome" required="" type="text">					
                       <input name="email" placeholder="E-mail" class="common-input mb-20 form-control email" required="" type="email">
-                      <input name="objetivo" placeholder="Objetivo" class="common-input mb-20 form-control objetivo" required="" type="text">
+                      <input type="hidden" name="accessKey" value="fef68055-8f4d-4266-9ae8-30a46e5798b3"> 
                     </div>
                     <div class="col-lg-6 form-group">
                       <textarea class="common-textarea form-control mensagem" name="message" placeholder="Mensagem" required=""></textarea>
-                      <button  class="primary-btn mt-20" style="float: right;">Enviar</button>									
+                      <button  class="primary-btn mt-20" style="float: right;" type="submit">Enviar</button>
+                      <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/contato.html">									
                     </div>
                   </div>
                 </form>	
@@ -117,33 +117,37 @@
         <footer class="footer-area section-gap cor-footer">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget titulo-footer ">
                   <h6>Sobre nós</h6>
-                  <p>
-                    {descricao_rodape}
-                  </p>
-                  <p class="footer-text">
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Recliclagem Solidária e Inlcusiva
+                  <p class="footer-p">
+                    Olá, nós somos o Projeto de Extensão trying to make an effort to put the right people for you to get the
+                    best results. Just insight
                   </p>								
                 </div>
               </div>
-              <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="col-lg-2 col-md-3 col-sm-3">
                 <div class="single-footer-widget titulo-footer">
-                      <h6>Links</h6> 
-                      <ul class="links-footer">
-                        <li><a href="inicio.html">  Home</a></li>
+                      <h6 class="correcao-titulo">Recursos</h6> 
+                      <ul class="links-footer ">
                         <li><a href="publicacoes.html">  Publicações</a></li>
                         <li><a href="videos.html"> Videos</a></li>
+                      </ul>
+                 </div>
+              </div>	
+              <div class="col-lg-2 col-md-3 col-sm-3">
+                <div class="single-footer-widget titulo-footer">
+                      <h6 class="correcao-titulo">Projeto</h6> 
+                      <ul class="links-footer ">
                         <li><a href="dashboard.html"> Dashboard</a></li>
                         <li><a href="contato.html"> Contato</a></li>
                       </ul>
                  </div>
               </div>						
-              <div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+              <div class="col-lg-3 col-md-3 col-sm-3 social-widget">
                 <div class="single-footer-widget titulo-footer">
                   <h6>Redes sociais</h6>
-                  <p>Conheça nossas redes sociais abaixo.</p>
+                  <p>Conheça nossas redes sociais.</p>
                   <div class="footer-social d-flex align-items-center">
                     <a href="{facebook}" target="_blank"><i class="fa fa-facebook fa-2x icones"></i></a>
                     <a href="{instagram}" target="_blank"><i class="fa fa-instagram fa-2x icones"></i></a>
@@ -153,6 +157,9 @@
               </div>							
             </div>
           </div>
+          <p class="footer-text texto-copy">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Recliclagem Solidária e Inlcusiva
+          </p>	
         </footer>
         <!-- Final do Footer -->
 
