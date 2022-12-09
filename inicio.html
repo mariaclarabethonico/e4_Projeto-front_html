@@ -14,17 +14,28 @@
   <link rel="stylesheet" type="text/css" href="css/inicio.css" />
   <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
   <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!--Tornar a página responsiva-->
 </head>
+
+<!--Header-->
 
 <body style="margin: 0; background: #ffffff">
   <input type="hidden" id="anPageName" name="page" value="inicio" />
-  <div class="container-center-horizontal">
+  <!--alinhamento dá página toda, n tá no css-->
+  <div class="home-center-horizontal">
+    <!--formatação dá página tbm-->
     <div class="inicio screen">
+      <!--alinhamento header e body-->
       <div class="flex-col">
+        <!--alinhamento header apenas-->
         <div class="overlap-group1 lato-normal-black-16px">
-          <div class="header">
+          <!--início nav bar-->
+          <div class="navbar">
+            <!--formatação do navbar-->
             <div class="overlap-group">
-              <!--<img class="frame-29" src="img/frame-29@1x.png" alt="Frame 29" />-->
               <img class="vector-50" src="img/vector-50@2x.svg" alt="Vector 50" />
               <div class="frame-30">
                 <div class="dropdown">
@@ -36,7 +47,6 @@
                   </div>
                 </div>
               </div>
-
               <img class="vector-51" src="img/vector-50@2x.svg" alt="Vector 51" />
               <div class="frame-31">
                 <button id="button" class="publica" href="./publicacoes.html"> PUBLICAÇÕES </button>
@@ -56,15 +66,17 @@
               <img class="vector-54" src="img/vector-50@2x.svg" alt="Vector 54" />
             </div>
           </div>
+          <!--fim nav bar-->
           <img class="logo_grande" src="img/logo-grande@2x.png" alt="Logo_grande" />
           <img class="rectangle-gradient" src="img/rectangle-gradient@1x.jpg" alt="Rectangle Gradient" />
-          <!--<img class="vdeo" src="img/v-deo@1x.png" alt="Vdeo" />-->
           <div class="rectangle-4"></div>
           <a href="./contato.html"> <img class="phone-call" src="img/phonecall@2x.svg" alt="PhoneCall"> </a>
           <a href="./contato.html"> <img class="envelope" src="img/envelope@2x.svg" alt="Envelope"> </a>
-          <div class="phone" href="./contato.html">(505) 299-5051</div>
-          <div class="demogmailcom" href="./contato.html">demo@gmail.com</div>
+          <div class="phone" href="./contato.html">(31) 99476-4792</div>
+          <div class="demogmailcom" href="./contato.html">reciclagem.solidaria.pucminas@gmail.com</div>
         </div>
+        <!--fim header-->
+        <!--início do meio-->
         <h1 class="title">O Projeto</h1>
         <div class="texto lato-light-masala-20px">
           <p class="txt">
@@ -117,29 +129,38 @@
           </p>
         </div>
       </div>
+      <!--fim do meio-->
+      <!--início rodapé-->
       <div class="footer">
+        <!--alinhamento do rodapé todo-->
         <div class="overlap-group1">
+          <!--borda verde do rodapé-->
           <div class="rectangle-10"></div>
           <p class="copyright">Copyright ©2022 Todos os direitos reservados | Reciclagem Solidária e
             Inclusiva</p>
+          <!--classe do ícones de rede social-->
           <div class="rede">
-            <img class="facebook-logo-button" src="./img/001-facebook-logo-button.png" alt="facebook-logo-button" />
-            <div class="insta-social-logo"></div>
-            <img class="twitter" src="./img/002-twitter.png" alt="002-twitter" />
+            <a target="blank" href='https://www.youtube.com/@reciclagemsolidaria5067'><i class="fab fa-youtube"></i></a>
+            <a target="blank" href='https://instagram.com/reciclagemsolidariapucmg?igshid=MTg0ZDhmNDA='><i class='fab fa-instagram'></i></a>
+            <a target="blank" href='https://www.linkedin.com/company/reciclagem-solid%C3%A1ria-e-inclusiva-puc-minas/about/'><i class='fab fa-linkedin'></i></a>
           </div>
+          <!--container do Menu de Recursos-->
           <div class="flex-col-4">
             <div class="recurso">Recursos</div>
             <a href="/publicacoes.html" class="publi">Publicações</a>
             <a href="/videos.html" class="video">Vídeos</a>
           </div>
+          <!--container do Menu de Projetos-->
           <div class="flex-col-3">
             <div class="projeto">Projeto</div>
             <a href="./inicio.html" class="about-us">Sobre nós </a>
             <a href="dashboard.html" class="partners">Parceiros</a>
           </div>
           <p class="descricao">
-            Olá, nós somos o Projeto de Extensão trying to make an effort to put the right people for you to get the
-            best results. Just insight
+            <!--texto-->
+            Somos o Projeto de extensão Reciclagem Solidária e Inclusiva da PUC Minas Betim. Nosso projeto nasceu em
+            2019 e desde então, o projeto vem desenvolvendo ações em apoio as associações de catadores de materiais
+            recicláveis nas cidades de Betim, Sarzedo, Esmeraldas e Igarapé.
           </p>
           <div class="reciclagem-solidria">Reciclagem Solidária</div>
           <img class="logo-small" src="./img/Logo_small.jpg" alt="Logo small" />
@@ -147,8 +168,7 @@
       </div>
     </div>
   </div>
-  </div>
-  </div>
+
 </body>
 
 </html>

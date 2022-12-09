@@ -5,13 +5,13 @@
 
 .inicio {
   align-items: center;
-  background-color: var(--white);
+  background-color: white;
   border: 1px none;
   display: flex;
   flex-direction: column;
   height: 2056px;
   overflow: hidden;
-  width: 1920px;
+  width: 1440px;
 }
 
 .inicio .flex-col {
@@ -19,18 +19,18 @@
   display: flex;
   flex-direction: column;
   min-height: 882px;
-  width: 1920px;
+  width: 1440px;
 }
 
 .inicio .overlap-group1 {
   height: 529px;
   position: relative;
-  width: 1920px;
+  width: 1440px;
 }
 
-.inicio .header {
+.inicio .navbar {
   align-items: center;
-  background-color: var(--white);
+  background-color: white;
   border: 1px none;
   display: flex;
   height: 101px;
@@ -45,12 +45,15 @@
 .inicio .overlap-group {
   height: 33px;
   position: absolute;
-  width: 1920px;
+  width: 723px;
 }
 
+/* vector são os tracinhos vermelhos
+frame- são as áreas que envolvem os Menus
+button - É o Menu dropdown*/
 .inicio .vector-50 {
   height: 32px;
-  left: 278px;
+  left: 178px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -84,7 +87,8 @@
   opacity: 0.6;
 }
 
-/*.dropdown {
+/* Esse aqui não funcionou aqui, mas não apaguei pq funcionou nos outros
+.dropdown {
   position: flex;
   display: inline-block;
 }*/
@@ -134,7 +138,7 @@
   border: 2px;
   display: flex;
   height: 17px;
-  left: 280px;
+  left: 180px;
   padding: 6px 61px;
   position: absolute;
   top: 0;
@@ -143,7 +147,7 @@
 
 .inicio .vector-51 {
   height: 32px;
-  left: 458px;
+  left: 358px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -155,7 +159,7 @@
   border: 2px;
   display: flex;
   height: 33px;
-  left: 460px;
+  left: 360px;
   min-width: 180px;
   padding: 6px 10px;
   position: absolute;
@@ -164,7 +168,7 @@
 
 .inicio .vector-52 {
   height: 32px;
-  left: 638px;
+  left: 538px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -176,7 +180,7 @@
   border: 2px;
   display: flex;
   height: 33px;
-  left: 640px;
+  left: 540px;
   min-width: 180px;
   padding: 6px 14px;
   position: absolute;
@@ -185,7 +189,7 @@
 
 .inicio .vector-53 {
   height: 32px;
-  left: 818px;
+  left: 718px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -197,7 +201,7 @@
   border: 2px;
   display: flex;
   height: 33px;
-  left: 820px;
+  left: 720px;
   min-width: 180px;
   padding: 6px 12px;
   position: absolute;
@@ -206,7 +210,7 @@
 
 .inicio .vector-54 {
   height: 32px;
-  left: 998px;
+  left: 898px;
   position: absolute;
   top: 0;
   width: 3px;
@@ -221,15 +225,17 @@
   width: 277px;
 }
 
+/* esse é o retângulo grande verde*/
 .inicio .rectangle-gradient {
   height: 322px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 207px;
-  width: 1920px;
+  width: 1440px;
 }
 
+/*retângulo onde tá o telefone e email lá em cima*/
 .inicio .rectangle-4 {
   background-color: var(--white);
   border: 2px solid;
@@ -239,23 +245,23 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 1920px;
+  width: 1440px;
 }
 
 .inicio .phone-call {
   height: 22px;
   left: 108px;
   position: absolute;
-  top: 14px;
-  width: 22px;
+  top: 12px;
+  width: 20px;
 }
 
 .inicio .envelope {
   height: 22px;
   left: 352px;
   position: absolute;
-  top: 14px;
-  width: 22px;
+  top: 12px;
+  width: 20px;
 }
 
 .inicio .phone {
@@ -266,6 +272,9 @@
   text-align: center;
   top: 13px;
   cursor: pointer;
+  font-size: 12px;
+  font-family: "Lato";
+  color: darkgrey;
 }
 
 .inicio .demogmailcom {
@@ -275,11 +284,15 @@
   position: absolute;
   top: 13px;
   cursor: pointer;
+  font-size: 12px;
+  font-family: "Lato";
+  color: darkgrey;
 }
 
 /*fim header*/
 
 .inicio .title {
+  align-self: flex-start;
   letter-spacing: 0;
   line-height: normal;
   margin-left: 121px;
@@ -298,7 +311,6 @@
   font-size: 40px;
   line-height: 49px;
   text-align: center;
-
   color: #1b3632;
 }
 
@@ -414,7 +426,7 @@
 .footer {
   align-items: flex-start;
   display: flex;
-  margin-left: 516px;
+  margin-left: 6.0px;
   margin-top: 80px;
   min-width: 1446px;
 }
@@ -422,7 +434,7 @@
 .overlap-group1 {
   height: 292px;
   position: flex;
-  width: 1920px;
+  width: 1440px;
 
 }
 
@@ -431,7 +443,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  left: 587px;
+  left: 787px;
   min-height: 77px;
   position: absolute;
   top: 40px;
@@ -445,6 +457,7 @@
   line-height: 28px;
   min-height: 27px;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .partners {
@@ -467,34 +480,67 @@
   align-items: flex-start;
   display: flex;
   height: 19px;
-  left: 668px;
+  left: 850px;
   min-width: 104px;
   position: absolute;
   top: 191px;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
 }
 
-.facebook-logo-button {
+
+.fa-youtube {
   align-self: flex-end;
-  height: 26px;
   margin-bottom: -6.48px;
   margin-left: -4px;
   width: 17px;
+  font-size: 20px;
 }
 
-.twitter {
+.fa-instagram {
+  align-self: flex-end;
+  margin-bottom: -6.48px;
+  margin-left: -4px;
+  width: 17px;
+  margin-left: 24px;
+  font-size: 20px;
+}
+
+.fa-linkedin {
+  align-self: flex-end;
+  margin-bottom: -6.48px;
+  margin-left: -4px;
+  width: 17px;
   height: 15px;
   margin-left: 28px;
-  margin-top: 0;
-  width: 19px;
+  font-size: 20px;
 }
 
-.insta-social-logo {
-  align-self: center;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/635b0504f55c5a85d294ecbf/releases/638a3022dcf0cf5a931f8593/img/combined-shape@2x.svg);
-  background-size: 100% 100%;
-  height: 19px;
-  margin-left: 24px;
-  width: 20px;
+.fa-youtube:hover {
+  color: darkred;
+  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
+
+.fa-instagram:hover {
+  color: hotpink;
+  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
+
+.fa-linkedin:hover {
+  color: darkblue;
+  -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+  transition: background-color 0.6s ease-out, color 0.6s ease-out;
 }
 
 .logo-small {
@@ -504,15 +550,14 @@
   left: -100;
   top: 29px;
   object-fit: cover;
-    
 }
 
 .copyright {
   color: black;
   font-family: "Lato";
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
-  left: 415px;
+  left: 720px;
   letter-spacing: 0;
   line-height: 28px;
   position: absolute;
@@ -521,11 +566,13 @@
 }
 
 .descricao {
-  color: black;
+  color: darkgrey;
+  text-align: justify;
+  text-justify: inter-word;
   font-family: "Lato";
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  left: 131px;
+  left: 231px;
   letter-spacing: 0;
   line-height: normal;
   opacity: 0.5;
@@ -536,9 +583,10 @@
 
 .reciclagem-solidria {
   color: black;
+  font-weight: bold;
   font-family: "Lato";
   font-size: 14px;
-  left: 136px;
+  left: 336px;
   letter-spacing: 0;
   line-height: 28px;
   position: absolute;
@@ -552,7 +600,7 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
-  left: 795px;
+  left: 995px;
   min-height: 77px;
   position: absolute;
   top: 40px;
@@ -566,6 +614,7 @@
   line-height: 28px;
   min-height: 27px;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .video {
@@ -575,8 +624,8 @@
   opacity: 0.5;
   width: 52px;
   cursor: pointer;
-  
-  
+
+
 }
 
 .publi {
@@ -596,6 +645,5 @@
   top: 4px;
   border: 1px solid;
   border-color: var(--killarney-2);
-  object-fit: cover;  
-
+  object-fit: cover;
 }
