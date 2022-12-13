@@ -1,85 +1,54 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="css/videos.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" type="text/css" href="css/publicacoes.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-  <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
-  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" link rel="stylesheet"
-    type="text/css" href="css/bootstrap.min.css" />
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="photo" />
-  <link rel="stylesheet" type="text/css" href="css/inicio.css" />
-  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-  <link rel="stylesheet" type="text/css" href="css/globals.css" />
-  <link rel="stylesheet" type="text/css" href="css/videos.css" />
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <!--Tornar a página responsiva-->
-</head>
-
-<!--Header-->
-
-<body style="margin: 0; background: #ffffff">
-  <input type="hidden" id="anPageName" name="page" value="inicio" />
-  <!--alinhamento dá página toda, n tá no css-->
-  <div class="home-center-horizontal">
-    <!--formatação dá página tbm-->
-    <div class="inicio screen">
-      <!--alinhamento header e body-->
-      <div class="flex-col">
-        <!--alinhamento header apenas-->
-        <div class="overlap-group1 lato-normal-black-16px">
-          <!--início nav bar-->
-          <div class="navbar">
-            <!--formatação do navbar-->
-            <div class="overlap-group">
-              <img class="vector-50" src="img/vector-50@2x.svg" alt="Vector 50" />
-              <div class="frame-30">
-                <div class="dropdown">
-                  <button id="button" class="dropbtn"> INÍCIO </button>
-                  <div class="dropdown-content">
-                    <a href="./inicio.html">Projeto</a>
-                    <a href="./dashboard.html">Pesquisa</a>
-                    <a href="/reciclagem.html">Reciclagem</a>
+<!--   <body class="home"> -->
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top cor-header">
+          <a class="navbar-brand imagem-padding logo-topo" href="./inicio.html"><img src="img/reciclagem.png"></a>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header-texto-principal" id="navbarSupportedContent">
+                  <div class="dropdown">
+                    <a href="./inicio.html" class="nav-link header-titulo font-inicio">INÍCIO </a>
+                    <div class="dropdown-content">
+                      <a href="./inicio.html">Projeto</a>
+                      <a href="./dashboard.html">Pesquisa</a>
+                      <a href="/reciclagem.html">Reciclagem</a>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <img class="vector-51" src="img/vector-50@2x.svg" alt="Vector 51" />
-              <div class="frame-31">
-                <button id="button" class="publica" href="./publicacoes.html"> PUBLICAÇÕES </button>
-              </div>
-              <img class="vector-52" src="img/vector-50@2x.svg" alt="Vector 52" />
-              <div class="frame-32">
-                <button id="button" class="vdeos" href="./videos.html">
-                  VÍDEOS
-                </button>
-              </div>
-              <img class="vector-53" src="img/vector-50@2x.svg" alt="Vector 53" />
-              <div class="frame-33">
-                <button id="button" class="contato" href="./contato.html">
-                  CONTATO
-                </button>
-              </div>
-              <img class="vector-54" src="img/vector-50@2x.svg" alt="Vector 54" />
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./publicacoes.html">Publicações</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./videos.html">Vídeos</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./contato.html">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link header-titulo" href="./login.html">Painel</a></li>
+                </ul>
             </div>
-          </div>
-          <!--fim nav bar-->
-          <img class="logo_grande" src="img/logo-grande@2x.png" alt="Logo_grande" />
-          <img class="rectangle-gradient" src="img/rectangle-gradient@1x.jpg" alt="Rectangle Gradient" />
-          <div class="rectangle-4"></div>
-          <a href="./contato.html"> <img class="phone-call" src="img/phonecall@2x.svg" alt="PhoneCall"> </a>
-          <a href="./contato.html"> <img class="envelope" src="img/envelope@2x.svg" alt="Envelope"> </a>
-          <div class="phone" href="./contato.html">(31) 99476-4792</div>
-          <div class="demogmailcom" href="./contato.html">reciclagem.solidaria.pucminas@gmail.com</div>
-        </div>
-        <!--fim header-->
+        </nav>
+    </header>
+    <!-- Final do Header -->
 
 
         <!--início do meio-->
+        <br><br><br><br><br><b
         <div class="atuacao fraunces-bold-gable-green-40px" style="margin:30px!important;">Vídeos</div>
         <div class="texto lato-light-masala-20px" style="margin:0px!important;">
           <div class="wrapper-grid">
@@ -129,45 +98,58 @@
 
       <!--fim do meio-->
       <!--início rodapé-->
-      <div class="footer">
-        <!--alinhamento do rodapé todo-->
-        <div class="overlap-group1">
-          <!--borda verde do rodapé-->
-          <div class="rectangle-10"></div>
-          <p class="copyright">Copyright ©2022 Todos os direitos reservados | Reciclagem Solidária e
-            Inclusiva</p>
-          <!--classe do ícones de rede social-->
-          <div class="rede">
-            <a target="blank" href='https://www.youtube.com/@reciclagemsolidaria5067'><i class="fab fa-youtube"></i></a>
-            <a target="blank" href='https://instagram.com/reciclagemsolidariapucmg?igshid=MTg0ZDhmNDA='><i class='fab fa-instagram'></i></a>
-            <a target="blank" href='https://www.linkedin.com/company/reciclagem-solid%C3%A1ria-e-inclusiva-puc-minas/about/'><i class='fab fa-linkedin'></i></a>
+      <footer class="footer-area section-gap cor-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-footer-widget titulo-footer ">
+                <h6>Sobre nós</h6>
+                <p class="footer-p">
+                  Olá, nós somos o Projeto de Extensão trying to make an effort to put the right people for you to get the
+                  best results. Just insight
+                </p>                
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3">
+              <div class="single-footer-widget titulo-footer">
+                    <h6 class="correcao-titulo">Recursos</h6> 
+                    <ul class="links-footer ">
+                      <li><a href="publicacoes.html">  Publicações</a></li>
+                      <li><a href="videos.html"> Videos</a></li>
+                    </ul>
+               </div>
+            </div>  
+            <div class="col-lg-2 col-md-3 col-sm-3">
+              <div class="single-footer-widget titulo-footer">
+                    <h6 class="correcao-titulo">Projeto</h6> 
+                    <ul class="links-footer ">
+                      <li><a href="dashboard.html"> Dashboard</a></li>
+                      <li><a href="contato.html"> Contato</a></li>
+                    </ul>
+               </div>
+            </div>            
+            <div class="col-lg-3 col-md-3 col-sm-3 social-widget">
+              <div class="single-footer-widget titulo-footer">
+                <h6>Redes sociais</h6>
+                <p>Conheça nossas redes sociais.</p>
+                <div class="footer-social d-flex align-items-center">
+                  <a href="{facebook}" target="_blank"><i class="fa fa-facebook fa-2x icones"></i></a>
+                  <a href="{instagram}" target="_blank"><i class="fa fa-instagram fa-2x icones"></i></a>
+                  <a href="{whatsapp}" target="_blank"><i class="fa fa-whatsapp fa-2x icones"></i></a>
+                </div>
+              </div>
+            </div>              
           </div>
-          <!--container do Menu de Recursos-->
-          <div class="flex-col-4">
-            <div class="recurso">Recursos</div>
-            <a href="/publicacoes.html" class="publi">Publicações</a>
-            <a href="/videos.html" class="video">Vídeos</a>
-          </div>
-          <!--container do Menu de Projetos-->
-          <div class="flex-col-3">
-            <div class="projeto">Projeto</div>
-            <a href="./inicio.html" class="about-us">Sobre nós </a>
-            <a href="dashboard.html" class="partners">Parceiros</a>
-          </div>
-          <p class="descricao">
-            <!--texto-->
-            Somos o Projeto de extensão Reciclagem Solidária e Inclusiva da PUC Minas Betim. Nosso projeto nasceu em
-            2019 e desde então, o projeto vem desenvolvendo ações em apoio as associações de catadores de materiais
-            recicláveis nas cidades de Betim, Sarzedo, Esmeraldas e Igarapé.
-          </p>
-          <div class="reciclagem-solidria">Reciclagem Solidária</div>
-          <img class="logo-small" src="./img/Logo_small.jpg" alt="Logo small" />
         </div>
-      </div>
+        <p class="footer-text texto-copy" style="font-size: 12px!important; text-align:center!important; font-weight:lighter!important;;">
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Recliclagem Solidária e Inlcusiva
+        </p>  
+      </footer>
     </div>
     
-  </div>
+ <!--  </div> -->
 
 </body>
-
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/custom.js"></script>
 </html>

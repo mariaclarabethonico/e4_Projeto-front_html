@@ -4,3 +4,16 @@
   width: 394px !important;
   min-height: 0px !important;
 }
+
+.recicl-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 150px!important;
+  margin-left: 150px!important;
+  margin-right: 450px!important;
+  gap: 200px!important;
+}
+
+.r-text {
+  margin-top: 40px!important;
+}
